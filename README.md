@@ -17,9 +17,9 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: SQL Injection
 
-Description:
+Description: When you navigate to the Salespeople tab from the main menu, you will be shown a list of all the sales staff personnel where their personal information can be shown or modified. As you will see below, a malicious user can perform a SQL Injection attack by incorporating the following code at the end of the URL (' OR SLEEP(5)=0--'). Doing so will show the information of another sales staff member. This flaw is exploited because the web developer failed to properly sanitize the URL input. 
 
 <img src="blue-vuln1.gif">
 
