@@ -25,7 +25,7 @@ Description: When you navigate to the Salespeople tab from the main menu, you wi
 
 Vulnerability #2: Session Hijacking 
 
-Description: 
+Description: Since the website doesn't regenerate the Session ID, it is liable to session hijacking. In order to exploit this flaw, a malicious user can log into the Globitek website from two different browsers, in this case Chrome and Firefox. They can change the session ID in one browser (Firefox) to the one generated in the other browser (Google Chrome). This allows the user to access the personal information of the staff personnel. 
 
 <img src="blue-vuln2.gif">
 
