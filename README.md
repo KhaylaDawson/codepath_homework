@@ -23,21 +23,21 @@ Description: When you navigate to the Salespeople tab from the main menu, you wi
 
 <img src="blue-vuln1.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Session Hijacking 
 
-Description:
+Description: 
 
 <img src="blue-vuln2.gif">
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: User Enumeration
 
 Description:
 
 <img src="green-vuln1.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Scripting
 
 Description:
 
@@ -46,13 +46,13 @@ Description:
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Indirect Object Reference
 
 Description:
 
 <img src="red-vuln1.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Request Forgery
 
 Description:
 
