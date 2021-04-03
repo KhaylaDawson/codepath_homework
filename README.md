@@ -40,6 +40,8 @@ Description: The web developer made the mistake of assigning two different class
 Vulnerability #2: Cross-Site Scripting
 
 Description: The Contact Us section of the website has a security flaw that allows a user to conduct an XSS attack by injecting malicious Javascript code into the Your Name input box. In order to exploit this flaw, one would inject code such as this: <script>alert('Mallory found the XSS!');</script> into the Your Name box, fill out the other two boxes and submit the form. If an authorized user who is logged in at the same time of the attack navigates to the Feedback tab, then they will see a continuous pop up notifcation message of the information the malicious user submitted on the Contacs Us submission form. 
+
+<img src="green-vuln2.gif">
 ## Red
 
 Vulnerability #1: Indirect Object Reference
